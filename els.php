@@ -8,10 +8,10 @@ $mail = new PHPMailer(true);
 try {
     // Настройка SMTP
     $mail->isSMTP();
-    $mail->Host = 'elbyrsbusiness@gmail.com';  // Используйте свой SMTP сервер
+    $mail->Host = 'elbyrsabdv@gmail.com';  // Используйте свой SMTP сервер
     $mail->SMTPAuth = true;
     $mail->Username = 'elbyrsabdv@gmail.com';  // Ваш email
-    $mail->Password = 'elbyrs15';  // Ваш пароль
+    $mail->Password = 'Aelbyrs15@';  // Ваш пароль
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
@@ -30,5 +30,6 @@ try {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
 ?>
+
 
 
