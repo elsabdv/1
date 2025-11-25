@@ -17,7 +17,7 @@ try {
 
     // Получатель
     $mail->setFrom($email, $name);
-    $mail->addAddress('your-email@example.com');  // Ваш email
+    $mail->addAddress('elbyrsabdv@gmail.com');  // Ваш email
 
     // Контент
     $mail->isHTML(true);
@@ -30,6 +30,7 @@ try {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
 ?>
+
 
 
 
